@@ -3,6 +3,10 @@
         <h1 class="text-xl text-center text-indigo-700">Welcome</h1>
 
         <inertia-link href="/dashboard" class="text-xl text-center text-green-700 font-extrabold">Dashboard</inertia-link>
+        <br>
+        <br>
+        <inertia-link href="/dynamic-search" class="text-xl text-center text-green-700 font-extrabold">Dynamic Search</inertia-link>
+
         <p class="text-center">
             <input type="text" placeholder="search" class="border border-gray-200 rounded-md px-3 py-1 outline-none" />
         </p>

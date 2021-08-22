@@ -28,6 +28,10 @@ Route::get('/', function () {
 Route::get('/dashboard', function () {
     return Inertia::render('Dashboard');
 });
+Route::get('/dynamic-search', function () {
+    return Inertia::render('DynamicSearch');
+});
+
 
 //services
 Route::get('/services', [ServicesController::class,'index'])->name('services.index');

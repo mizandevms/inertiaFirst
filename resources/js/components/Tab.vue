@@ -1,5 +1,5 @@
 <template>
-    <tabs>
+    <tabs class=" max-w-lg mx-auto py-4">
         <tab name="First tab"> First tab content </tab>
         <tab name="Second tab"> Second tab content </tab>
         <tab name="Third tab"> Third tab content </tab>
